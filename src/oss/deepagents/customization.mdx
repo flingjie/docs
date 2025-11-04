@@ -15,6 +15,7 @@ from deepagents import create_deep_agent
 
 model = init_chat_model(
     model="gpt-5",
+    model_provider="openai",
 )
 agent = create_deep_agent(
     model=model,
